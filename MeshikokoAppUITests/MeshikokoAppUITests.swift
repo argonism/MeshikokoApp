@@ -2,8 +2,6 @@
 //  MeshikokoAppUITests.swift
 //  MeshikokoAppUITests
 //
-//  Created by 薄羽皐太 on 2021/07/23.
-//
 
 import XCTest
 

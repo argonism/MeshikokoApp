@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5413327A26BEC3C300940953 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413327926BEC3C300940953 /* Config.swift */; };
+		5413327F26BEC73D00940953 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413327E26BEC73D00940953 /* ApiClient.swift */; };
 		5467694326A9EF6300DDD5E8 /* MeshikokoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467694226A9EF6300DDD5E8 /* MeshikokoAppApp.swift */; };
 		5467694526A9EF6300DDD5E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467694426A9EF6300DDD5E8 /* ContentView.swift */; };
 		5467694726A9EF6A00DDD5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5467694626A9EF6A00DDD5E8 /* Assets.xcassets */; };
 		5467694A26A9EF6A00DDD5E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5467694926A9EF6A00DDD5E8 /* Preview Assets.xcassets */; };
 		5467695526A9EF6A00DDD5E8 /* MeshikokoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467695426A9EF6A00DDD5E8 /* MeshikokoAppTests.swift */; };
 		5467696026A9EF6A00DDD5E8 /* MeshikokoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467695F26A9EF6A00DDD5E8 /* MeshikokoAppUITests.swift */; };
+		5467697126A9F69100DDD5E8 /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467697026A9F69100DDD5E8 /* RestaurantDetail.swift */; };
+		5467697626A9FB4900DDD5E8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467697526A9FB4900DDD5E8 /* MapView.swift */; };
+		54CA7D4A26AA9CE700112420 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA7D4926AA9CE700112420 /* Restaurant.swift */; };
+		54CA7D5226AABB0D00112420 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 54CA7D5126AABB0D00112420 /* restaurants.json */; };
+		54CA7D5726AABCA900112420 /* RestaurantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA7D5626AABCA900112420 /* RestaurantsList.swift */; };
+		54CA7D5C26AABCF600112420 /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA7D5B26AABCF600112420 /* RestaurantRow.swift */; };
+		54D9F27526AD70B50004A5FC /* FetchRestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9F27426AD70B50004A5FC /* FetchRestaurantList.swift */; };
+		54D9F27A26ADAD660004A5FC /* CreateRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9F27926ADAD660004A5FC /* CreateRestaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5413327926BEC3C300940953 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		5413327E26BEC73D00940953 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		5467693F26A9EF6300DDD5E8 /* MeshikokoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshikokoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5467694226A9EF6300DDD5E8 /* MeshikokoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshikokoAppApp.swift; sourceTree = "<group>"; };
 		5467694426A9EF6300DDD5E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,14 @@
 		5467695B26A9EF6A00DDD5E8 /* MeshikokoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshikokoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5467695F26A9EF6A00DDD5E8 /* MeshikokoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshikokoAppUITests.swift; sourceTree = "<group>"; };
 		5467696126A9EF6A00DDD5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5467697026A9F69100DDD5E8 /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
+		5467697526A9FB4900DDD5E8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		54CA7D4926AA9CE700112420 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		54CA7D5126AABB0D00112420 /* restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		54CA7D5626AABCA900112420 /* RestaurantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsList.swift; sourceTree = "<group>"; };
+		54CA7D5B26AABCF600112420 /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
+		54D9F27426AD70B50004A5FC /* FetchRestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRestaurantList.swift; sourceTree = "<group>"; };
+		54D9F27926ADAD660004A5FC /* CreateRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRestaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +115,16 @@
 		5467694126A9EF6300DDD5E8 /* MeshikokoApp */ = {
 			isa = PBXGroup;
 			children = (
+				54CA7D4926AA9CE700112420 /* Restaurant.swift */,
+				54CA7D5126AABB0D00112420 /* restaurants.json */,
 				5467694226A9EF6300DDD5E8 /* MeshikokoAppApp.swift */,
-				5467694426A9EF6300DDD5E8 /* ContentView.swift */,
+				5467697A26A9FB5700DDD5E8 /* Views */,
 				5467694626A9EF6A00DDD5E8 /* Assets.xcassets */,
 				5467694B26A9EF6A00DDD5E8 /* Info.plist */,
 				5467694826A9EF6A00DDD5E8 /* Preview Content */,
+				54D9F27426AD70B50004A5FC /* FetchRestaurantList.swift */,
+				5413327E26BEC73D00940953 /* ApiClient.swift */,
+				5413327926BEC3C300940953 /* Config.swift */,
 			);
 			path = MeshikokoApp;
 			sourceTree = "<group>";
@@ -128,6 +153,19 @@
 				5467696126A9EF6A00DDD5E8 /* Info.plist */,
 			);
 			path = MeshikokoAppUITests;
+			sourceTree = "<group>";
+		};
+		5467697A26A9FB5700DDD5E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5467694426A9EF6300DDD5E8 /* ContentView.swift */,
+				5467697026A9F69100DDD5E8 /* RestaurantDetail.swift */,
+				5467697526A9FB4900DDD5E8 /* MapView.swift */,
+				54CA7D5626AABCA900112420 /* RestaurantsList.swift */,
+				54CA7D5B26AABCF600112420 /* RestaurantRow.swift */,
+				54D9F27926ADAD660004A5FC /* CreateRestaurant.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5467694A26A9EF6A00DDD5E8 /* Preview Assets.xcassets in Resources */,
+				54CA7D5226AABB0D00112420 /* restaurants.json in Resources */,
 				5467694726A9EF6A00DDD5E8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5413327F26BEC73D00940953 /* ApiClient.swift in Sources */,
+				54D9F27A26ADAD660004A5FC /* CreateRestaurant.swift in Sources */,
+				54CA7D5726AABCA900112420 /* RestaurantsList.swift in Sources */,
+				54CA7D4A26AA9CE700112420 /* Restaurant.swift in Sources */,
+				5467697126A9F69100DDD5E8 /* RestaurantDetail.swift in Sources */,
+				54D9F27526AD70B50004A5FC /* FetchRestaurantList.swift in Sources */,
+				5467697626A9FB4900DDD5E8 /* MapView.swift in Sources */,
 				5467694526A9EF6300DDD5E8 /* ContentView.swift in Sources */,
+				5413327A26BEC3C300940953 /* Config.swift in Sources */,
+				54CA7D5C26AABCF600112420 /* RestaurantRow.swift in Sources */,
 				5467694326A9EF6300DDD5E8 /* MeshikokoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
